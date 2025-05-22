@@ -32,7 +32,7 @@ moodle-chatbot-plugin/
 └── README.md
 ```
 ## Dosya Açıklamaları
-'chatbot.py': 
+`chatbot.py`: 
 
 - Amaç: Komut satırından (CLI) veya Moodle web arayüzünden gelen soruları alır.
 
@@ -40,7 +40,7 @@ moodle-chatbot-plugin/
 
 - Bağımlılıklar: google.generativeai, chromadb, sentence-transformers, transformers
 
-'chromadb/': (Github reposunda bu klsör mevcut değil ancak siz kendi klosör yapınız içerisinde kendi verilerinizi gömebilirsiniz)
+`chromadb/`: (Github reposunda bu klsör mevcut değil ancak siz kendi klosör yapınız içerisinde kendi verilerinizi gömebilirsiniz)
 
 - Amaç: ChromaDB formatında saklanan vektörleştirilmiş PDF içerikleri içerir.
 
@@ -52,19 +52,19 @@ moodle-chatbot-plugin/
 
     - *.bin, *.pickle: Vektör indeksleme ve sorgu için gerekli segment dosyalarıdır.
 
- 'lang/en/local_chatbot.php':
+ `lang/en/local_chatbot.php`:
  
 - Amaç: Moodle eklentisinin kullanıcı izinlerini tanımlar.
 
 - İşlevi: Kimin bu eklentiyi kullanabileceğini Moodle seviyesinde belirler.
 
- 'version.php':
+ `version.php`:
  
 - Amaç: Moodle sistemine bu eklentinin sürüm, uyumluluk ve bağımlılık bilgilerini bildirir.
 
 - Zorunludur.
 
-'index.php':
+`index.php`:
 
 - Amaç: Chatbot arayüzünün çalıştığı Moodle sayfasıdır.
 
@@ -72,7 +72,7 @@ moodle-chatbot-plugin/
 
     - Yönlendirme: chatbot.py dosyasına shell exec komutuyla mesaj gönderir.
 ## API Anahtarı ve Ortam Değişkenleri
-chatbot.py aşağıdaki ortam değişkenlerini kullanır:
+`chatbot.py` aşağıdaki ortam değişkenlerini kullanır:
 
 - GOOGLE_API_KEY → Gemini LLM için gerekli.
 
