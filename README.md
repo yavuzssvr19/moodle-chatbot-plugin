@@ -12,7 +12,7 @@ graph TD
     chatbot.py -->|Sorgu| ChromaDB
     chatbot.py -->|Yanıt| Google Gemini API
     Google Gemini API -->|Cevap| chatbot.py
-    chatbot.py -->|Yanıt| Moodle Arayüzü
+    chatbot.py -->|Yanıt| Moodle Arayüzü``` 
 
 ## Proje Yapısı
 moodle-chatbot-plugin/
