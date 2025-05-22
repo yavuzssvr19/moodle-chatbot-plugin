@@ -34,11 +34,11 @@ moodle-chatbot-plugin/
 ## Dosya Açıklamaları
 'chatbot.py': 
 
-    - Amaç: Komut satırından (CLI) veya Moodle web arayüzünden gelen soruları alır.
+- Amaç: Komut satırından (CLI) veya Moodle web arayüzünden gelen soruları alır.
 
-    - İşlevi: ChromaDB vektör veritabanından benzer belgeleri alır, Gemini LLM ile anlamlı bir cevap üretir.
+- İşlevi: ChromaDB vektör veritabanından benzer belgeleri alır, Gemini LLM ile anlamlı bir cevap üretir.
 
-    - Bağımlılıklar: google.generativeai, chromadb, sentence-transformers, transformers
+- Bağımlılıklar: google.generativeai, chromadb, sentence-transformers, transformers
 
 'chromadb/': (Github reposunda bu klsör mevcut değil ancak siz kendi klosör yapınız içerisinde kendi verilerinizi gömebilirsiniz)
 
