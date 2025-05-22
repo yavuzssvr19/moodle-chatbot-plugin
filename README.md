@@ -71,6 +71,15 @@ moodle-chatbot-plugin/
 - İçerik: HTML + PHP ile Gradio veya basit form tabanlı frontend arayüz sağlar.
 
     - Yönlendirme: chatbot.py dosyasına shell exec komutuyla mesaj gönderir.
+    - 
+`lib.php`
+
+Bu dosya, Moodle sisteminde eklentinin Moodle altyapısına düzgün bir şekilde bağlanmasını sağlar.
+
+- Moodle tarafından otomatik olarak çağrılır.
+- Eklentinin sayfaya entegre olması için gerekli olan fonksiyonları tanımlar.
+- Örneğin, `local_plugin_extend_navigation()` gibi fonksiyonlar burada yer alabilir ve Moodle menüsüne özel girişler eklemek için kullanılır.
+
 ## API Anahtarı ve Ortam Değişkenleri
 `chatbot.py` aşağıdaki ortam değişkenlerini kullanır:
 
