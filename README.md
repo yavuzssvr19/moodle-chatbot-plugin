@@ -4,7 +4,6 @@ Bu proje, Moodle tabanlı bir öğrenim yönetim sistemine (LMS) **AI destekli b
 
 ## Sistem Mimarisi
 
-```mermaid
 graph TD
     Kullanıcı -->|Soru| Moodle Chatbot Arayüzü
     Moodle Chatbot Arayüzü -->|Soru| chatbot.py
