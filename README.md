@@ -14,6 +14,7 @@ graph TD
     chatbot.py -->|Yanıt| Moodle Arayüzü``` 
 
 ## Proje Yapısı
+```
 moodle-chatbot-plugin/
 ├── chatbot.py
 ├── chromadb/ 
@@ -28,7 +29,7 @@ moodle-chatbot-plugin/
 ├── index.php
 ├── lib.php
 └── README.md
-
+```
 ## Dosya Açıklamaları
 'chatbot.py': 
 
