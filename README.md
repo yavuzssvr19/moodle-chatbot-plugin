@@ -44,13 +44,13 @@ moodle-chatbot-plugin/
 
 - Amaç: ChromaDB formatında saklanan vektörleştirilmiş PDF içerikleri içerir.
 
-İçerik: 
+- İçerik: 
 
-- chroma.sqlite3: Chroma'nın metadata deposudur.
+    - chroma.sqlite3: Chroma'nın metadata deposudur.
 
-- 87c5.../: Her koleksiyon için oluşturulan HNSW segment klasörü.
+    - 87c5.../: Her koleksiyon için oluşturulan HNSW segment klasörü.
 
-- *.bin, *.pickle: Vektör indeksleme ve sorgu için gerekli segment dosyalarıdır.
+    - *.bin, *.pickle: Vektör indeksleme ve sorgu için gerekli segment dosyalarıdır.
 
  'lang/en/local_chatbot.php':
  
